@@ -26,7 +26,11 @@ body {
   font-size: 16px;
   font-family: Raleway;
   font-weight: 700;
+  transition: 0.3s;
+}
 
+.btn-Primary:hover {
+  background: #F0C411;
 }
 
 .section-title {
@@ -42,7 +46,7 @@ body {
 }
 
 /* Nav styles */
-nav {
+.header-top {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -129,4 +133,118 @@ main {
   font-family: Inter;
   font-size: 20px;
   font-weight: 400;
+}
+
+.what-users .section-title {
+  text-align: center;
+
+}
+
+.loved-area {
+  display: flex;
+}
+
+.loved-title {
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.loved-subtitle {
+  font-family: Inter;
+}
+
+.user-info {
+  display: flex;
+  gap: 15px;
+}
+
+.name {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+/* ready section  */
+.ready-section {
+  text-align: center;
+  margin: 71px 0;
+}
+
+.ready-img {
+  margin-top: 15px;
+}
+
+
+
+
+
+/* Touch-Section */
+.Touch-Section {
+  width: 1140px;
+  display: flex;
+  margin: 100px auto;
+  gap: 115px;
+
+}
+
+.Touch-Section h1 {
+  font-family: Raleway;
+  font-size: 97px;
+  font-weight: 700;
+}
+
+.footer-input input,
+textarea {
+  width: 400px;
+  border: 1px solid rgb(214, 221, 237);
+  border-radius: 10px;
+  background: rgb(255, 255, 255);
+  padding: 20px 32px;
+  display: block;
+  margin-bottom: 15px;
+}
+
+.footer-input .submit {
+  background: rgb(78, 71, 255);
+  border-radius: 10px;
+  color: white;
+  transition: 0.3s;
+}
+
+.footer-input .submit:hover {
+  background: #F0C411;
+}
+
+.footer-section {
+  width: 531px;
+  margin: 0 auto;
+}
+
+.footer-action {
+  font-weight: 400;
+  font-size: 16px;
+  color: rgb(137, 135, 161);
+}
+
+.footer-section h1 {
+  color: rgb(78, 71, 255);
+  font-size: 100px;
+  font-weight: 900;
+  text-align: center;
+  margin: 10px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {}
+
+nav ul li a {
+  text-decoration: none;
+  padding: 10px 20px;
+  font-family: inter;
+  color: rgb(137, 135, 161);
 }
