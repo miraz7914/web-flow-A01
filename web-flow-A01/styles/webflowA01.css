@@ -169,10 +169,16 @@ main {
 .ready-section {
   text-align: center;
   margin: 71px 0;
+
 }
 
 .ready-img {
   margin-top: 15px;
+
+}
+
+.ready-img img {
+  border-radius: 48px;
 }
 
 
