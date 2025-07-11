@@ -89,12 +89,44 @@ main {
   align-items: center;
 }
 
-.right-side {
-  width: 403px;
-  height: 328px;
-}
+.right-side {}
 
 .right-side img {
-  width: 100%;
+  width: 403px;
+  height: 328px;
   border-radius: 48px;
+}
+
+
+/* user section style  */
+.user-section {
+  background: rgba(78, 71, 255, 0.1);
+}
+
+.user-title {
+  text-align: center;
+  font-size: 38px;
+  font-weight: 700;
+  color: #252432;
+  padding-top: 50px;
+}
+
+.user {
+  display: flex;
+  justify-content: space-around;
+}
+
+.data-title {
+  font-size: 80px;
+  font-weight: 700;
+  font-family: Inter;
+  margin-bottom: 0;
+  margin-top: 40px;
+
+}
+
+.data-subtitle {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
 }
